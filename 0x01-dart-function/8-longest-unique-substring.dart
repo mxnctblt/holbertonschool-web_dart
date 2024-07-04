@@ -1,6 +1,4 @@
-import '8-longest-unique-substring.dart';
-
-main() {
+String longestUniqueSubstring(String str) {
   print(longestUniqueSubstring("abcacbd"));
   print(longestUniqueSubstring("aaaaaaaa"));
   print(longestUniqueSubstring("abcde"));
