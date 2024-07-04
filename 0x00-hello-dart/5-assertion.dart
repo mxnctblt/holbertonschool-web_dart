@@ -1,4 +1,9 @@
 void main(List<String> args) {
+  if (args.isEmpty) {
+    print('Uncaught Error: Assertion failed: "Please provide a score as an argument."');
+    return;
+  }
+
   try {
     int score = int.parse(args[0]);
 
