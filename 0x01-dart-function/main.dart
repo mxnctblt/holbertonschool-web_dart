@@ -1,7 +1,7 @@
-import '5-calculate-area.dart';
+import '6-convert-to-fahrenheit.dart';
 
 main() {
-  print(calculateArea(20,7));
-  print(calculateArea(10,7));
-  print(calculateArea(8.5,3.7));
+  print(convertToF([25, 26, 23, 27, 30]));
+  print(convertToF([22.5, 26, 27.3, 23.6, 25]));
+  print(convertToF([-4.2, -2, 0.5, -5, -1.7]));
 }
